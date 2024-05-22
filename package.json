@@ -1,0 +1,21 @@
+{
+  "name": "multi-tenant-react-app",
+  "version": "1.0.0",
+  "description": "A multi tenant React app with server",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run start-client",
+    "start-server": "nodemon server.js", 
+    "start-client": "cd client &amp;&amp; npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jess y Clara",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
